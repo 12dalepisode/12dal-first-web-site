@@ -1,24 +1,71 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>WEB1 - Welcome!</title>
+        <title>열두달 episode</title>
         <meta charset="utf-8">
+    <style>
+      body{margin:0;}
+        a{text-decoration: none;
+          color:black;
+        }
+        h1 {
+           font-size: 300%; 
+           font-family: 굴림;
+           font-weight: 800;
+           text-align: center;
+           border-bottom : 2px solid gray;
+           padding:20px;
+           margin:0;
+           background-color: aquamarine;           
+        }   
+        #h1{color:rgb(103, 47, 206)}
+        #grid ul {
+            text-decoration: none;
+            font-size: 20px;
+            color: black;
+            border-right: 2px solid gray;
+            margin:0;
+            padding:20px;
+            padding-left: 33px;
+            background-color: chocolate;
+        }
+        #grid{
+            display : grid;
+            grid-template-columns: 200px 1fr;
+            text-decoration: none;
+        }
+        #grid #content{
+            font : 20px; 
+            font-family: 돋움;
+            font-style: italic;
+            color: azure;
+            padding-left: 25px;
+            padding-right: 15px;
+            margin:0;
+            background-color: rgb(182, 194, 72);
+        }
+    </style>
     </head>
 <body>
-    <h1> <a href="index.html">WEB</a> </h1>
-    <ol>
-        <li><a href="1.html">HTML</a></li>
+    <h1 > <a href="index.html" id="h1">열두달 에피소드 절기모임</a> </h1>
+    <div id="grid">
+     <ul>
+        <li><a href="1.html" style="color: bisque;">HTML</a></li>
         <li><a href="2.html">CSS</a></li>
         <li><a href="3.html">JavaScript</a></li>
-    </ol>    
-<h2>WEB</h2>
-<p style="margin-bottom: 20px;">웹의 원래 의미는 「거미집」으로 하나의 사이트나 또는 다른 사이트와의 관계가 거미집처럼 복잡하게 얽혀 있기 때문에 웹이라고 부른다.
-</p>
-<p><a href="https://ko.wikipedia.org/wiki/%EC%9B%B9_(%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)" target="_blank">웹(WEB)</a> 도널드 커누스가 만든 컴퓨터 프로그래밍 시스템이다. 본인이 제안한 문학적 프로그래밍(literate programming)을 실제로 적용하기 위해 만들었다. 보통 프로그램을 짤 때 프로그램을 먼저 짜고 나중에 주석으로 프로그램의 동작을 설명하는 방법을 쓴다. 문학적 프로그래밍에서는 문학작품을 쓰는 것처럼 프로그램이 어떻게 동작해야 하는지 말로 풀어쓰고, 그 동작과 관련된 코드는 특별한 기호로 구분하여 작성한다. 그리고 웹을 이용해서 설명과 관련된 부분은 출력가능한 문서로 뽑아내고 소스 코드 부분은 컴파일 가능한 코드로 뽑아낸다.</p>
-<p>
-    WEB은 'tangle'과 'weave'라는 두 가지 프로그램으로 구성된다.</p>
-   <p> 
-    tangle: 소스코드에서 컴파일 가능한 파스칼 코드를 뽑아내는 프로그램<br>
-    weave: 출력가능한 TeX 문서를 뽑아내는 프로그램.</p>
-    <img src="web.jpg" width="70%"> 
-</html>
+     </ul>    
+     <div id="content">
+       <h2>열두달 에피소드에 오신 것을 환영합니다.</h2>
+       
+       <p>열두달 에피소드 홈페이지 제작중입니다.</p>
+       <img src="photo/월정명 20230922.png" width="80%">
+       <p> 동묘 시화당에서 진행한 처서풍류 영상입니다 ~</p>
+       <video 
+         src="photo/처서풍류.mp4"
+         controls type="video.mp4"
+         width="50%"         >
+       </video>
+     </div>
+   </div>
+</body>
+    </html>
